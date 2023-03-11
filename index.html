@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Мои любимые игры в Steam</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Мои любимые игры в Steam</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+      background:linear-gradient(to left ,DarkBlue,Indigo);
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		main {
+			padding: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		.game {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			margin: 10px;
+			width: 300px;
+			height: 400px;
+			padding: 10px;
+			text-align: center;
+			transition: background-color 0.2s ease;
+			cursor: pointer;
+		}
+		.game:hover {
+			background-color: #f2f2f2;
+		}
+		.game img {
+			max-width: 100%;
+			height: auto;
+		}
+		.game h3 {
+			font-size: 1.2em;
+			margin: 10px 0;
+		}
+		.game p {
+			font-size: 1em;
+			margin: 10px 0;
+			color: #666;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Мои любимые игры в Steam</h1>
+	</header>
+	<main>
+		<div class="game" onclick="window.open('https://store.steampowered.com/app/570/Dota_2/');">
+			<img src="" alt="Dota 2">
+			<h3>Dota 2</h3>
+			<p>Цена: бесплатно</p>
+		</div>
+		<div class="game" onclick="window.open('https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/');">
+			<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_184x69.jpg" alt="Grand Theft Auto V">
+			<h3>Grand Theft Auto V</h3>
+			<p>Цена: 999 руб.</p>
+		</div>
+		<div class="game" onclick="window.open('https://store.steampowered.com/app/1091500/DOOM_Eternal/');">
+			<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_184x69.jpg" alt="DOOM Eternal">
+			<h3>Cyberpunk 2077</h3>
+			<p>Цена: 1 947 руб.</p>
+		</div>
+		<div class="game" onclick="window.open('https://store.steampowered.com/app/413150/Stardew_Valley/');">
+			<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_184x69.jpg" alt="Stardew Valley">
+			<h3>Stardew Valley</h3>
+			<p>Цена: 529 руб.</p>
+      </body>
+<!-- partial -->
+  
+</body>
+</html>
